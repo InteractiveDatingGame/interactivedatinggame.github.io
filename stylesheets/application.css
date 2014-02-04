@@ -148,7 +148,7 @@ header .navigation .right {
   background: url("../images/ribbon-right.png");
 }
 header .navigation .center {
-  width: 400px;
+  width: 550px;
   background: url("../images/ribbon.png");
   font: 700 12px museo-sans;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
@@ -215,15 +215,16 @@ h1 {
   text-decoration: none;
 }
 
-section.talks ul.talks {
+ul.talks {
   text-align: center;
 }
-section.talks ul.talks li {
+
+ul.talks li {
   display: inline-block;
   width: 175px;
   height: 150px;
 }
-section.talks ul.talks li .avatar {
+ul.talks li .avatar {
   width: 70px;
   height: 70px;
   background-size: cover;
@@ -235,18 +236,22 @@ section.talks ul.talks li .avatar {
   -moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.27) inset;
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.27) inset;
 }
-section.talks ul.talks li .avatar.nobody {
+
+ul.talks li .avatar.nobody {
   background: url("../images/speakers/nobody.png") no-repeat center center;
 }
-section.talks ul.talks li .name {
+
+ul.talks li .name {
   font: 500 18px museo-sans;
   color: #bb000f;
 }
-section.talks ul.talks li .handle, section.talks ul.talks li .handle a {
+
+ul.talks li .handle, section.talks ul.talks li .handle a {
   font: 500 14px museo-sans;
   color: #929292;
 }
-section.talks ul.talks li .topic {
+
+ul.talks li .topic {
   margin-top: 20px;
   height: 30px;
 }
