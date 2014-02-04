@@ -176,7 +176,7 @@ header .navigation > * {
   background-color:white;
   padding-left:50px;
   padding-right:50px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .inhalt section {
@@ -206,6 +206,7 @@ h1 {
 .inhalt section.copyright {
   text-align: center;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 .inhalt a {
   color: #bb000f;
