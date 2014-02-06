@@ -407,7 +407,7 @@ section .next-dates p {
       display: none;
     }
 
-    .impressions iframe, .impressions img {
+    .impressions iframe, .impressions img, .about img {
       width: 100%;
     }
 
