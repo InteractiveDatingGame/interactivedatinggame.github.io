@@ -383,7 +383,7 @@ section .next-dates p {
 }
 
 .pfeil img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -460,6 +460,9 @@ section .next-dates p {
         padding: 0;
     }
 
+    .content {
+      overflow: hidden;
+    }
     section {
         padding: 10px;
         padding-right: 40px;
