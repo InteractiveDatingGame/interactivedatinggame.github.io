@@ -141,9 +141,11 @@ header .navigation {
   overflow: hidden;
   *zoom: 1;
   display: inline-block;
-  margin-top: 114px;
- position: relative;
-    bottom: 0px;
+  margin-top: -14px;
+ position: absolute;
+ width: 440px;
+ left: 50%;
+ margin-left: -220px;
 }
 
 header .navigation .left, header .navigation .right, header .navigation .center {
@@ -175,8 +177,20 @@ header .navigation .center li a {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 header .navigation > * {
   display: inline-block;
+}
+
+header .navigation .opener {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: red;
+  background-image: url("../images/menu.gif");
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
 .inhalt {
@@ -363,14 +377,77 @@ section .next-dates p {
 }
 
 .pfeil {
-    position: relative;
-    float: right;
+    position: absolute;
     right: 100px;
-    top: 85px;
-    background-color:#f0f0f0;
+    top: 5px;
+}
+
+.pfeil img {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 920px){
+    header .navigation {
+      top: 0px !important;
+      margin-top: 0;
+      width: inherit;
+      margin-left: 0;
+      left: 0;
+      height: 40px;
+    }
+
+    .pfeil {
+      width: 150px;
+      right: -32px;
+    }
+
+
+    header .navigation .nav {
+      display: none;
+    }
+
+    .impressions iframe, .impressions img {
+      width: 100%;
+    }
+
+    header .navigation.visible {
+      height: inherit;
+    }
+
+    header .navigation.visible .nav {
+      display: block;
+    }
+
+    header .navigation.visible .opener {
+      display: none;
+    }
+
+    header .navigation .opener {
+      display: block;
+    }
+
+    header .navigation .center {
+      background: none;
+      height: inherit;
+      width: inherit;
+    }
+
+    header .navigation .nav li a {
+      background: black;
+      border-bottom: 1px solid #999;
+      padding: 15px 0;
+    }
+
+    header .navigation .nav li {
+      display: block;
+    }
+
+    header .left, header .right {
+      display: none;
+    }
+
+
     header .content .logo img{
         width: 60%;
     }
