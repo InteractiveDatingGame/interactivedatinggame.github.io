@@ -117,7 +117,7 @@ header .grid {
   opacity: 0.66;
 }
 header .content {
-  padding-top: 98px;
+  padding-top: 0;
   text-align: center;
 }
 .center {
@@ -125,10 +125,9 @@ header .content {
   margin-bottom: 15px;
 }
 header .content .logo {
-  margin: auto;
+  margin: 40px auto 0;
   display: block;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 header .content p.tagline {
@@ -188,7 +187,7 @@ header .navigation .opener {
   height: 40px;
   background: none;
   background-image: url("../images/menu.gif");
-  left: 0;
+  left: 10px;
   position: absolute;
   top: 0;
 }
@@ -207,7 +206,7 @@ header .navigation .opener {
   margin-bottom: 70px;
   font: 500 14px museo-sans;
   color: #656565;
-  
+
 }
 
 h1 {
@@ -339,7 +338,7 @@ section.sponsors ul.sponsors li img:hover {
 .next-dates {
     width: 170px;
     margin: 0 auto;
-    
+
 }
 .next-dates h2{
     font: 500 14px museo-sans;
@@ -379,12 +378,47 @@ section .next-dates p {
 .pfeil {
     position: absolute;
     right: 100px;
+    z-index: 2;
     top: 5px;
 }
 
 .pfeil img {
   width: 70%;
   height: auto;
+}
+
+.banner img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+
+.ss-form-question input{
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #B3B3B3;
+  width: 300px;
+  padding-right: 80px;
+}
+
+.ss-item input[type=submit]{
+  border-radius: 0;
+  background: #B03120;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  top: -46px;
+  position: relative;
+  margin-left: 292px;
+  -webkit-appearance: none;
+  border-radius: 0
+}
+
+form.form {
+  position: relative;
 }
 
 @media screen and (max-width: 920px){
@@ -454,7 +488,7 @@ section .next-dates p {
     header .content p.tagline {
         font-size: 20pt;
     }
-    
+
     .inhalt {
         width: 100%;
         padding: 0;
@@ -478,5 +512,17 @@ section .next-dates p {
 
     ul#columnlist {
     padding-top: 20px;
+    }
+
+    .ss-form-question input{
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .ss-item input[type=submit]{
+      margin-left: 0;
+      position: absolute;
+      right: -2px;
+      top: 16px;
     }
 }
