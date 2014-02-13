@@ -421,6 +421,18 @@ form.form {
   position: relative;
 }
 
+#talks strong {
+  font-weight: bold;
+  color: #B03120;
+  display: block;
+}
+
+#talks h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
 @media screen and (max-width: 920px){
     header .navigation {
       top: 0px !important;
