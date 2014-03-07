@@ -238,7 +238,7 @@ h1 {
   text-decoration: none;
 }
 
-ul.talks {
+ul.talks, ul.sponsors {
   text-align: center;
 }
 
@@ -247,6 +247,13 @@ ul.talks li {
   width: 175px;
   height: 150px;
 }
+
+ul.sponsors li {
+  display: inline-block;
+  width: 258px;
+  height: 150px;
+}
+
 ul.talks li .avatar {
   width: 70px;
   height: 70px;
