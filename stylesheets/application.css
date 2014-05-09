@@ -338,12 +338,12 @@ section.sponsors ul.sponsors li img:hover {
     position: absolute;
     z-index:3;
     background-image:url("../images/next-dates.png");
-    width: 206px;
+    width: 220px;
     height: 275px;
-    margin-left: 580px;
+    margin-left: 570px;
 }
 .next-dates {
-    width: 170px;
+    width: 190px;
     margin: 0 auto;
 
 }
@@ -352,7 +352,7 @@ section.sponsors ul.sponsors li img:hover {
     text-transform: uppercase;
     font-weight:800;
     color: white;
-    margin-top: 15px;
+    margin-top: 20px;
     font-size:22px;
     letter-spacing:1px;
 }
@@ -361,13 +361,13 @@ section.sponsors ul.sponsors li img:hover {
     text-transform: uppercase;
     font-weight:800;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size:22px;
     letter-spacing:1px;
-    margin-top:1px;
 }
 
 section .next-dates p {
+  margin-top: 20px;
   padding-left: 0px;
   color: #fff;
 }
