@@ -203,7 +203,6 @@ header .navigation .opener {
 }
 
 .inhalt section {
-  margin-bottom: 70px;
   font: 500 14px museo-sans;
   color: #656565;
 
@@ -215,9 +214,8 @@ h1 {
   font: 700 26px museo-sans;
   color: #bb000f;
   text-transform: uppercase;
-  margin-bottom: 15px;
   background-color:white;
-  display: inline;
+  display: inline-block;
 }
 
 .inhalt section p {
@@ -245,7 +243,13 @@ ul.talks, ul.sponsors {
 ul.talks li {
   display: inline-block;
   width: 175px;
-  height: 150px;
+  height: 250px;
+}
+
+ul.talks.candidates li {
+  display: inline-block;
+  width: 175px;
+  height: 190px;
 }
 
 ul.sponsors li {
@@ -254,34 +258,30 @@ ul.sponsors li {
   height: 150px;
 }
 
-ul.talks li .avatar {
-  width: 70px;
-  height: 70px;
+li .avatar {
+  width: 120px;
+  height: 120px;
   background-size: cover;
-  border-radius: 90px;
-  border: 4px solid white;
-  margin: auto;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.27) inset;
-  -moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.27) inset;
-  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.25), 0 5px 5px 0 rgba(0, 0, 0, 0.27) inset;
+  border-radius: 60px;
+  border: 1px solid gray;
+  margin: 10px auto;
 }
 
-ul.talks li .avatar.nobody {
+li .avatar.nobody {
   background: url("../images/speakers/nobody.png") no-repeat center center;
 }
 
-ul.talks li .name {
+li .name {
   font: 500 18px museo-sans;
   color: #bb000f;
 }
 
-ul.talks li .handle, section.talks ul.talks li .handle a {
+li .handle, section.talks ul.talks li .handle a {
   font: 500 14px museo-sans;
   color: #929292;
 }
 
-ul.talks li .topic {
+li .topic {
   margin-top: 20px;
   height: 30px;
 }
@@ -338,12 +338,12 @@ section.sponsors ul.sponsors li img:hover {
     position: absolute;
     z-index:3;
     background-image:url("../images/next-dates.png");
-    width: 206px;
+    width: 220px;
     height: 275px;
-    margin-left: 580px;
+    margin-left: 570px;
 }
 .next-dates {
-    width: 170px;
+    width: 190px;
     margin: 0 auto;
 
 }
@@ -352,7 +352,7 @@ section.sponsors ul.sponsors li img:hover {
     text-transform: uppercase;
     font-weight:800;
     color: white;
-    margin-top: 15px;
+    margin-top: 20px;
     font-size:22px;
     letter-spacing:1px;
 }
@@ -361,13 +361,13 @@ section.sponsors ul.sponsors li img:hover {
     text-transform: uppercase;
     font-weight:800;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size:22px;
     letter-spacing:1px;
-    margin-top:1px;
 }
 
 section .next-dates p {
+  margin-top: 20px;
   padding-left: 0px;
   color: #fff;
 }
@@ -379,7 +379,7 @@ section .next-dates p {
   width: 100%;
   z-index:100px;
   height: 30px;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 
 .pfeil {
