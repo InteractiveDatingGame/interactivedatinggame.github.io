@@ -249,7 +249,14 @@ ul.talks li {
 ul.talks.candidates li {
   display: inline-block;
   width: 175px;
-  height: 190px;
+  height: 120px;
+}
+
+ul.talks.candidates li .avatar {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  border-radius: 35px;
 }
 
 ul.sponsors li {
@@ -399,7 +406,12 @@ section .next-dates p {
   z-index: 1;
   width: 100%;
 }
-
+.tickets img {
+  position: absolute;
+  top: -70px;
+  right: 40px;
+  z-index: 1;
+}
 
 .ss-form-question input{
   padding: 10px;

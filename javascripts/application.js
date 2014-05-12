@@ -7,7 +7,7 @@ resizing = function() {
     viewportwidth = window.innerWidth;
     viewportheight = window.innerHeight;
   }
-  height = viewportheight;
+  height = viewportheight - 20;
   $('header').css('height', "" + height + "px");
   $('.navigation').css('top', height + 'px')
 };
