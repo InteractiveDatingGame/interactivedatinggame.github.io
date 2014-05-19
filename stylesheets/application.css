@@ -29,6 +29,13 @@ html {
   font: normal 16px museo-sans;
 }
 
+.quotes div {
+  text-align: right;
+}
+.quotes blockquote {
+  text-align: center;
+}
+
 ul {
   list-style: none;
 }
@@ -63,6 +70,9 @@ ul#columnlist li span{
 }
 
 q, blockquote {
+  font-style: italic;
+  font-size: 2em;
+  font-family: Georgia, "Times-New-Roman";
   quotes: none;
 }
 q:before, q:after, blockquote:before, blockquote:after {

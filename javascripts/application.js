@@ -18,6 +18,12 @@ window.addEventListener('resize', function() {
 jQuery(function($) {
   resizing();
 
+  $('.quotes').slick({
+    infinite: true,
+    dots: true,
+    autoplay: true
+  });
+
   $('.opener').click(function(){
     $('.navigation').addClass('visible');
   })
