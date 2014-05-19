@@ -1,7 +1,6 @@
 var resizing;
 
 resizing = function() {
-  console.log("TEST");
   var height, viewportheight, viewportwidth;
   if (typeof window.innerWidth !== 'undefined') {
     viewportwidth = window.innerWidth;
