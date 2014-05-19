@@ -24,6 +24,10 @@ jQuery(function($) {
     autoplay: true
   });
 
+  $('.gallery').slick({
+    dots: true
+  });
+
   $('.opener').click(function(){
     $('.navigation').addClass('visible');
   })

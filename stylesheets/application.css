@@ -29,11 +29,30 @@ html {
   font: normal 16px museo-sans;
 }
 
+.quotes {
+  margin-bottom: 60px;
+}
 .quotes div {
   text-align: right;
 }
 .quotes blockquote {
   text-align: center;
+}
+.quotes .slick-dots {
+  padding: 0;
+}
+
+.gallery iframe {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+.gallery img {
+  max-height: 400px;
+  margin: 0 auto;
+}
+.gallery .slick-dots {
+  padding: 0;
 }
 
 ul {
