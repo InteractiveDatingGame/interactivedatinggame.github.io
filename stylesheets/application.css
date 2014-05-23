@@ -277,6 +277,11 @@ ul.talks li {
   width: 175px;
   height: 250px;
 }
+
+ul.candidates {
+  /*margin-bottom: 80px;*/
+}
+
 ul.candidates li:first-child {
   border-right: 1px solid lightgray;
 }
@@ -284,7 +289,9 @@ ul.candidates li:first-child {
 ul.talks.candidates li {
   display: inline-block;
   width: 175px;
-  height: 120px;
+  /*height: 320px;*/
+  vertical-align: top;
+  margin-bottom: 80px;
 }
 
 ul.talks.candidates li .avatar {
