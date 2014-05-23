@@ -328,6 +328,7 @@ li .name {
 li .handle, section.talks ul.talks li .handle a {
   font: 500 14px museo-sans;
   color: #929292;
+  padding-bottom: 5px;
 }
 
 li .topic {
