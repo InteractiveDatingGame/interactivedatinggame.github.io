@@ -28,12 +28,15 @@ html {
   margin-bottom: 20px;
   font: normal 16px museo-sans;
 }
+.about h2 {
+  padding-left: 35px;
+  margin-bottom: 20px;
+  line-height: 150%;
 
+  font: 600 22px museo-sans;
+}
 .quotes {
   margin-bottom: 60px;
-}
-.quotes div {
-  text-align: right;
 }
 .quotes blockquote {
   text-align: center;
@@ -273,6 +276,9 @@ ul.talks li {
   display: inline-block;
   width: 175px;
   height: 250px;
+}
+ul.candidates li:first-child {
+  border-right: 1px solid lightgray;
 }
 
 ul.talks.candidates li {
