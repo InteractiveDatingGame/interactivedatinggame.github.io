@@ -275,7 +275,7 @@ ul.talks, ul.sponsors {
 ul.talks li {
   display: inline-block;
   width: 175px;
-  height: 250px;
+  /*height: 250px;*/
 }
 
 ul.candidates {
