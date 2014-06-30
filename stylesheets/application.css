@@ -494,6 +494,10 @@ form.form {
   font-weight: bold;
 }
 
+.dg-logo {
+  width: 648px;
+}
+
 
 @media screen and (max-width: 920px){
     header .navigation {
@@ -510,12 +514,11 @@ form.form {
       right: -32px;
     }
 
-
     header .navigation .nav {
       display: none;
     }
 
-    .impressions iframe, .impressions img, .about img {
+    .impressions iframe, .impressions img, .about img, .dg-logo {
       width: 100%;
     }
 
