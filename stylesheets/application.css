@@ -447,7 +447,7 @@ section .next-dates p {
 .banner img {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  left: 60px;
 }
 .tickets img {
   position: absolute;
@@ -500,6 +500,10 @@ form.form {
 
 
 @media screen and (max-width: 920px){
+    .banner img {
+      display: none;
+    }
+
     header .navigation {
       top: 0px !important;
       margin-top: 0;
